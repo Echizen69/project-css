@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: 0px;
+    border: 0px;
+}
+body{
+    background-color: #000000;
+}
+
+.admin-box {
+    background-color:  #ff8000;
+    margin: 10% 20%;
+    padding: 38px;
+    border-radius: 15px;
+    box-shadow: #fff 10px 10px 8px;
+}
+
+ .admin-box h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 45px;
+    line-height: 36px;
+    margin: 25px auto 60px;
+
+  }
+  
+  
+
+ .admin-box h3 {
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  margin-bottom: 69px;
+ } 
+ label, input    {
+    display: block;
+ }
+ input {
+    /* display: inline-block; */
+    background-color: transparent;
+ }
+  input {
+    margin: 0px auto 2px;
+    padding: 15px;
+    width: 80%;
+    border: #000 solid 3px;
+    color: #000000;
+    border-radius: 9px;
+  }
+
+  /* input:hover */
+  input:hover{
+    background-color: #000000c2;
+    transition: ease-in 0.2s;
+    color: #ff8000;
+  }
+  label{
+    font-size: 20PX;
+    margin-top: 20px;
+    margin-left: 8.5%;
+    font-weight: 550;
+  }
+  input[type="submit"],
+  input[type="reset"] {
+    width: 28%;
+    font-size: 20px;
+    font-weight: 40px;
+    margin-top: 20px;
+    
+    }
+    input::placeholder {
+      font-size: 18px;
+      line-height: 18px;
+      color: rgb(138, 50, 160);
+    }
+    
+    
+    /* all pg */
+    #pg {
+      font-size: 18px;
+      line-height: 18px;
+     text-align: center;
+     margin-top: 39px;
+      text-transform: uppercase;
+      font-weight: 700;
+     }
+     
+     
+     /* forgetpass a */
+     .pg {
+      font-size: 18px;
+      line-height: 18px;
+      margin-top: 20px;
+      margin-left: 9%;
+      
+      
+      text-transform: uppercase;
+      }
+    
+      a {
+        color: rgb(0, 248, 248);
+      }
+    
+      input[type="radio"],
+      label[for="female"],
+      label[for="male"],
+      label[for="other"] {
+display: none;
+
+    }
+
+    box-shadow:hover {
+      transition: ease-in 0.2s;
+    }
+  
